@@ -2,6 +2,7 @@ import base64
 
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 from utils.prediction import predict_candidate
 
@@ -605,6 +606,85 @@ their hiring eligibility simultaneously.
                 df["Not Eligible Probability"] = not_eligible_probs
 
             st.success("✅ Batch prediction completed.")
+
+            # =====================================================
+            # 📊 Ringkasan Statistik Keseluruhan Dataset
+            # =====================================================
+
+            total_candidates = len(df)
+            eligible_count = predictions.count("Eligible")
+            not_eligible_count = predictions.count("Not Eligible")
+
+            eligible_pct = eligible_count / total_candidates
+            not_eligible_pct = not_eligible_count / total_candidates
+
+            st.subheader("📊 Ringkasan Hasil Prediksi (Keseluruhan Dataset)")
+
+            sum_col1, sum_col2, sum_col3 = st.columns(3)
+
+            with sum_col1:
+                st.metric(
+                    "Total Kandidat",
+                    total_candidates
+                )
+
+            with sum_col2:
+                st.metric(
+                    "✅ Eligible",
+                    f"{eligible_count} kandidat",
+                    delta=f"{eligible_pct:.1%}"
+                )
+
+            with sum_col3:
+                st.metric(
+                    "❌ Not Eligible",
+                    f"{not_eligible_count} kandidat",
+                    delta=f"{not_eligible_pct:.1%}",
+                    delta_color="inverse"
+                )
+
+            st.write("**Proporsi Eligible vs Not Eligible**")
+
+            prog_col1, prog_col2 = st.columns(2)
+
+            with prog_col1:
+                st.caption(f"Eligible — {eligible_pct:.1%}")
+                st.progress(eligible_pct)
+
+            with prog_col2:
+                st.caption(f"Not Eligible — {not_eligible_pct:.1%}")
+                st.progress(not_eligible_pct)
+
+            summary_df = pd.DataFrame({
+                "Status": ["Eligible", "Not Eligible"],
+                "Jumlah": [eligible_count, not_eligible_count]
+            })
+
+            fig = px.pie(
+                summary_df,
+                names="Status",
+                values="Jumlah",
+                color="Status",
+                color_discrete_map={
+                    "Eligible": "#30D158",
+                    "Not Eligible": "#FF3B30"
+                },
+                hole=0.5
+            )
+
+            fig.update_traces(textinfo="percent+label")
+            fig.update_layout(
+                showlegend=True,
+                margin=dict(t=10, b=10, l=10, r=10)
+            )
+
+            st.plotly_chart(fig, use_container_width=True)
+
+            # =====================================================
+            # Detail Hasil per Kandidat
+            # =====================================================
+
+            st.subheader("📋 Detail Hasil per Kandidat")
 
             st.dataframe(df)
 
