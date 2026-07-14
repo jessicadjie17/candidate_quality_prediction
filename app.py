@@ -257,7 +257,7 @@ st.markdown(
     f"""
     <div class="main-header" style="display:flex; align-items:center; gap:28px;">
         <img src="data:image/png;base64,{logo_base64}"
-             width="90"
+             width="160"
              style="border-radius:18px; flex-shrink:0;" />
         <div>
             <span class="eyebrow">DECISION SUPPORT SYSTEM</span>
