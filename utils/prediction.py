@@ -3,10 +3,6 @@ import pandas as pd
 import sklearn
 import streamlit as st
 
-print("===================================")
-print("SKLEARN VERSION:", sklearn.__version__)
-print("===================================")
-
 from utils.preprocessing import (
     create_seniority_tier,
     encode_features,
@@ -99,6 +95,7 @@ def predict_candidate(
     # =====================================
     # Scaling
     # =====================================
+
     candidate_scaled = scaler.transform(candidate_full)
 
     # =====================================
