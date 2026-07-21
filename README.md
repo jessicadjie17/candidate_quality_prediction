@@ -142,31 +142,6 @@ TalentMatch AI helps organizations by:
 
 ---
 
-# 📁 Repository Structure
-
-```
-TalentMatch-AI/
-│
-├── data/
-│
-├── notebooks/
-│
-├── models/
-│
-├── deployment/
-│   ├── app.py
-│   ├── predict.py
-│   ├── requirements.txt
-│
-├── assets/
-│
-├── README.md
-│
-└── LICENSE
-```
-
----
-
 # 🔮 Future Improvements
 
 Future enhancements may include:
