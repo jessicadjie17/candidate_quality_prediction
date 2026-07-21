@@ -1,0 +1,101 @@
+candidate_id,job_id,education_level,years_experience,num_relevant_skills,skills,internal_referral,interview_score,technical_test_score,soft_skill_score
+CAND-0001,JOB-002,Bachelor,9,1,"Python, Machine Learning, SQL, Excel",No,1.38,5.25,1.43
+CAND-0002,JOB-004,Bachelor,11,4,"SQL, Data Visualization, Communication",No,8.1,1.82,8.57
+CAND-0003,JOB-005,Bachelor,6,3,Machine Learning,No,2.67,2.53,8.18
+CAND-0004,JOB-004,Bachelor,2,4,Excel,No,3.87,6.28,9.43
+CAND-0005,JOB-001,Bachelor,3,4,"Data Visualization, Communication, Python",Yes,3.87,2.41,4.21
+CAND-0006,JOB-002,PhD,12,1,"Python, Data Visualization, Excel, SQL",No,3.97,2.82,8.03
+CAND-0007,JOB-004,Master,19,4,"Cloud Computing, Communication, Excel",No,5.27,3.1,3.59
+CAND-0008,JOB-003,Bachelor,1,3,"Data Visualization, Python, Leadership, Cloud Computing",Yes,9.86,9.75,9.96
+CAND-0009,JOB-002,Bachelor,13,3,"Leadership, Cloud Computing, Excel",No,1.33,7.6,1.58
+CAND-0010,JOB-004,Master,17,1,Communication,No,1.22,2.4,1.55
+CAND-0011,JOB-003,Bachelor,10,2,"Excel, Machine Learning",No,1.77,3.66,5.85
+CAND-0012,JOB-001,PhD,2,3,Python,Yes,6.57,5.6,1.34
+CAND-0013,JOB-003,Bachelor,14,2,"Excel, SQL",No,5.58,6.39,6.46
+CAND-0014,JOB-003,PhD,18,4,"Excel, Leadership, Communication",No,6.1,1.54,9.31
+CAND-0015,JOB-004,Bachelor,9,3,"Cloud Computing, Python",No,6.54,5.63,1.93
+CAND-0016,JOB-003,Bachelor,0,1,Cloud Computing,No,3.11,2.75,8.63
+CAND-0017,JOB-003,Bachelor,10,3,"Leadership, Machine Learning, Data Visualization, Python",Yes,1.3,5.38,5.05
+CAND-0018,JOB-002,Bachelor,1,1,SQL,No,6.11,2.07,3.01
+CAND-0019,JOB-004,Master,19,2,Communication,Yes,6.28,4.82,4.07
+CAND-0020,JOB-001,Master,3,4,"Data Visualization, Leadership, Cloud Computing",No,2.67,8.43,6.58
+CAND-0021,JOB-004,Master,2,1,SQL,No,2.29,6.21,6.18
+CAND-0022,JOB-001,Bachelor,12,2,"Cloud Computing, SQL",Yes,3.44,1.69,9.14
+CAND-0023,JOB-002,Master,19,4,"SQL, Cloud Computing, Data Visualization, Python",Yes,9.19,7.27,4.31
+CAND-0024,JOB-001,Master,9,3,Cloud Computing,No,3.35,4.37,3.19
+CAND-0025,JOB-001,PhD,5,1,"Excel, Communication",Yes,7.83,2.44,1.56
+CAND-0026,JOB-005,Bachelor,18,4,Cloud Computing,Yes,2.98,3.58,6.55
+CAND-0027,JOB-005,Bachelor,6,3,Excel,No,6.84,5.46,3.61
+CAND-0028,JOB-002,Master,2,4,"Leadership, Machine Learning",No,3.15,5.65,7.61
+CAND-0029,JOB-001,Bachelor,9,2,"Leadership, Excel",No,6.76,9.05,5.61
+CAND-0030,JOB-002,Master,6,3,"Excel, SQL, Cloud Computing, Python",Yes,1.97,3.62,3.55
+CAND-0031,JOB-001,Bachelor,3,1,Leadership,Yes,3.12,7.5,1.17
+CAND-0032,JOB-002,Bachelor,11,1,"Cloud Computing, Excel, Python, Communication",No,3.22,1.7,7.58
+CAND-0033,JOB-004,Bachelor,17,4,"Communication, Excel, Leadership, Python",No,7.24,4.56,8.03
+CAND-0034,JOB-002,Bachelor,1,4,"SQL, Cloud Computing, Data Visualization",No,7.62,2.58,1.64
+CAND-0035,JOB-002,Bachelor,17,2,SQL,Yes,6.04,5.89,3.03
+CAND-0036,JOB-001,Master,17,4,Data Visualization,No,5.46,8.72,8.58
+CAND-0037,JOB-005,Master,1,1,"Cloud Computing, Communication",No,4.2,4.38,4.19
+CAND-0038,JOB-004,Bachelor,0,1,"Data Visualization, SQL, Cloud Computing, Excel",Yes,3.83,2.9,3.81
+CAND-0039,JOB-001,Bachelor,10,4,"SQL, Communication",No,6.28,8.62,1.35
+CAND-0040,JOB-005,Bachelor,19,2,Cloud Computing,No,4.55,10.0,9.61
+CAND-0041,JOB-004,Bachelor,4,2,"Cloud Computing, Data Visualization",No,5.06,5.98,2.75
+CAND-0042,JOB-004,Bachelor,11,3,Leadership,Yes,4.96,6.54,9.23
+CAND-0043,JOB-001,Bachelor,6,3,"Data Visualization, Python, SQL, Leadership",No,5.06,8.28,7.97
+CAND-0044,JOB-002,Bachelor,5,1,"Cloud Computing, SQL",Yes,1.81,2.11,2.4
+CAND-0045,JOB-005,Master,19,4,"Machine Learning, Communication",No,8.23,3.29,9.62
+CAND-0046,JOB-002,Bachelor,2,3,"SQL, Data Visualization, Leadership, Excel",No,6.15,7.18,2.09
+CAND-0047,JOB-002,Master,10,1,"Excel, Machine Learning, Data Visualization, Communication",Yes,6.42,3.11,6.47
+CAND-0048,JOB-002,Bachelor,0,3,Leadership,No,7.89,6.56,1.12
+CAND-0049,JOB-003,Bachelor,14,3,"Cloud Computing, SQL",Yes,5.49,6.01,2.11
+CAND-0050,JOB-003,PhD,2,1,"Data Visualization, Communication, Excel, Cloud Computing",No,6.76,4.87,8.0
+CAND-0051,JOB-002,Bachelor,3,4,"Data Visualization, Communication, Leadership",No,7.95,2.5,8.1
+CAND-0052,JOB-004,Bachelor,18,3,Cloud Computing,No,1.32,7.22,6.11
+CAND-0053,JOB-001,Bachelor,4,3,"Cloud Computing, Machine Learning",No,2.68,5.64,2.65
+CAND-0054,JOB-003,Bachelor,2,2,"Leadership, SQL",No,1.63,6.79,8.66
+CAND-0055,JOB-002,Bachelor,4,3,"Data Visualization, Excel, Cloud Computing",Yes,7.51,3.08,4.79
+CAND-0056,JOB-001,Bachelor,19,2,"Python, Machine Learning",No,4.79,9.4,1.42
+CAND-0057,JOB-003,Bachelor,13,1,"Cloud Computing, Leadership",Yes,7.48,5.76,9.73
+CAND-0058,JOB-004,Bachelor,16,4,Leadership,No,9.13,4.53,5.3
+CAND-0059,JOB-003,Bachelor,2,1,Cloud Computing,No,6.23,8.81,4.41
+CAND-0060,JOB-001,Bachelor,5,2,Machine Learning,No,8.58,4.71,2.55
+CAND-0061,JOB-002,Bachelor,15,4,"Python, Machine Learning, Data Visualization",No,1.65,3.25,6.89
+CAND-0062,JOB-002,Bachelor,7,1,"Leadership, Cloud Computing",No,7.34,6.42,4.5
+CAND-0063,JOB-005,Bachelor,8,2,"Machine Learning, Python",No,8.71,5.71,3.18
+CAND-0064,JOB-003,Master,3,1,"SQL, Leadership, Communication",No,6.07,9.84,9.59
+CAND-0065,JOB-005,Master,14,3,"Python, SQL",No,4.52,2.19,1.43
+CAND-0066,JOB-004,Master,6,3,SQL,No,8.31,7.54,2.67
+CAND-0067,JOB-003,Master,1,3,"Leadership, Excel, Cloud Computing",No,8.24,5.76,5.32
+CAND-0068,JOB-001,Master,8,2,Cloud Computing,Yes,1.39,9.78,4.56
+CAND-0069,JOB-005,Bachelor,8,2,"Python, Leadership",No,8.47,8.94,2.39
+CAND-0070,JOB-002,Bachelor,17,1,"Cloud Computing, Communication",No,9.84,2.58,3.12
+CAND-0071,JOB-002,Bachelor,6,4,"Python, Cloud Computing, Excel",No,2.74,3.05,2.43
+CAND-0072,JOB-001,Bachelor,2,2,"Machine Learning, Data Visualization, Leadership",No,8.35,3.11,6.49
+CAND-0073,JOB-002,Master,7,1,"Leadership, Cloud Computing, SQL, Machine Learning",No,2.06,9.97,5.31
+CAND-0074,JOB-005,Master,17,4,"Leadership, Machine Learning, Data Visualization, Excel",No,9.55,5.03,2.56
+CAND-0075,JOB-002,Bachelor,16,4,"Machine Learning, Cloud Computing, Excel, Data Visualization",No,9.02,3.19,2.39
+CAND-0076,JOB-005,Master,2,2,"Leadership, Data Visualization",No,6.89,2.99,3.13
+CAND-0077,JOB-004,Master,4,1,"Machine Learning, Communication",Yes,3.62,5.07,9.75
+CAND-0078,JOB-004,Bachelor,17,4,Machine Learning,Yes,6.17,5.16,4.63
+CAND-0079,JOB-003,Master,17,4,"SQL, Machine Learning",No,8.41,8.63,9.44
+CAND-0080,JOB-004,Bachelor,14,4,"Excel, Leadership",Yes,8.33,6.58,5.18
+CAND-0081,JOB-005,Bachelor,13,3,"SQL, Leadership, Data Visualization, Communication",No,8.91,5.18,9.14
+CAND-0082,JOB-004,PhD,18,3,"Cloud Computing, Machine Learning, Python",No,2.7,2.72,2.47
+CAND-0083,JOB-003,Bachelor,15,4,"SQL, Cloud Computing, Excel, Machine Learning",Yes,7.1,9.39,4.05
+CAND-0084,JOB-004,Bachelor,16,4,Python,No,1.97,6.44,4.92
+CAND-0085,JOB-002,Master,16,1,Communication,No,9.11,7.34,8.2
+CAND-0086,JOB-005,Bachelor,2,2,"Leadership, Excel, Machine Learning",No,4.6,8.67,5.04
+CAND-0087,JOB-001,Master,6,1,"Data Visualization, Cloud Computing, Python, SQL",No,1.93,7.64,8.94
+CAND-0088,JOB-003,Master,9,3,"Data Visualization, SQL, Leadership",No,1.12,9.31,3.89
+CAND-0089,JOB-003,Bachelor,6,4,Communication,No,7.23,7.61,1.24
+CAND-0090,JOB-002,PhD,6,2,"Cloud Computing, Excel, SQL, Leadership",No,2.41,3.61,6.55
+CAND-0091,JOB-001,PhD,15,4,"Cloud Computing, Data Visualization",No,5.03,3.82,6.98
+CAND-0092,JOB-003,Master,16,3,"Machine Learning, SQL, Excel",No,6.11,2.83,8.62
+CAND-0093,JOB-005,Bachelor,13,4,"Excel, Machine Learning",No,4.8,8.83,3.87
+CAND-0094,JOB-001,Bachelor,12,3,"Leadership, SQL, Data Visualization, Python",No,9.13,4.27,1.0
+CAND-0095,JOB-004,Bachelor,1,4,"Machine Learning, Data Visualization, SQL",No,6.87,6.14,8.61
+CAND-0096,JOB-002,Master,8,2,Python,No,5.22,2.9,5.62
+CAND-0097,JOB-003,Master,11,4,Leadership,No,6.38,3.34,4.85
+CAND-0098,JOB-001,Bachelor,14,3,"Data Visualization, Leadership, Cloud Computing, Communication",No,8.99,7.43,1.21
+CAND-0099,JOB-002,Bachelor,1,1,Leadership,Yes,7.97,1.31,6.07
+CAND-0100,JOB-004,Bachelor,12,2,"Communication, Python",No,7.3,6.79,9.5
